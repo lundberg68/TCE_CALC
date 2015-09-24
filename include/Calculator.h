@@ -20,11 +20,18 @@ private:
 public:
 
 	// constructor with default values for data members
-	Calculator(float a, float b){
+	Calculator(float a, float b, char calcOper){
 		firstNumber= a;
 		secondNumber= b;
-
+		calcOper = '+';
 	};
+
+	// constructor with default values for data members
+	Calculator(float d, float e){
+		firstNumber= d;
+		secondNumber= e;
+	};
+
 
 	Calculator(){
 		firstNumber= 0;
